@@ -48,6 +48,7 @@ set nobackup nowritebackup
 set viminfo="NONE"
 set visualbell
 set wildmenu
+set updatetime=300
 
 " status bar settings
 set ruler
