@@ -92,6 +92,3 @@ if [[ $(uname) == 'Linux' ]]; then
 else
     alias ls="ls -Gal"
 fi
-
-source ~/google-cloud-sdk/path.zsh.inc
-source ~/google-cloud-sdk/completion.zsh.inc
