@@ -12,8 +12,6 @@ init:
 	ln -fs `pwd`/.grcat $(HOME)/.grcat
 	mkdir -p  $(HOME)/bin
 	ln -fs `pwd`/bin/diff-highlight $(HOME)/bin/diff-highlight
-	ln -fs `pwd`/bin/createbranch.sh $(HOME)/bin/createbranch.sh
-	ln -fs `pwd`/bin/deletebranch.sh $(HOME)/bin/deletebranch.sh
 	ln -fs `pwd`/bin/memcache-top $(HOME)/bin/memcache-top
 	ln -fs `pwd`/.bash_profile $(HOME)/.bash_profile
 	ln -fs `pwd`/.bashrc $(HOME)/.bashrc
