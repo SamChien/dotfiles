@@ -1,0 +1,12 @@
+#!/bin/sh
+
+cd ~
+tmux new-session -d -s $1
+
+for index in {2..10};
+do
+tmux new-window -t $1:$index
+done
+
+tmux select-window -t $1:1
+tmux -2 attach-session -t $1

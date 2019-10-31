@@ -14,6 +14,7 @@ init:
 	ln -fs `pwd`/bin/diff-highlight $(HOME)/bin/diff-highlight
 	ln -fs `pwd`/bin/memcache-top $(HOME)/bin/memcache-top
 	ln -fs `pwd`/bin/update-homebrew $(HOME)/bin/update-homebrew
+	ln -fs `pwd`/bin/init-tmux-env $(HOME)/bin/init-tmux-env
 	ln -fs `pwd`/.bash_profile $(HOME)/.bash_profile
 	ln -fs `pwd`/.bashrc $(HOME)/.bashrc
 	ln -fs `pwd`/.zshrc $(HOME)/.zshrc
