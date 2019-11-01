@@ -4,6 +4,7 @@ init:
 	ln -fs `pwd`/.cshrc $(HOME)/.cshrc
 	ln -fs `pwd`/.cshrc.d $(HOME)/.cshrc.d
 	ln -fs `pwd`/.gitconfig $(HOME)/.gitconfig
+	ln -fs `pwd`/.global-gitignore $(HOME)/.gitignore
 	ln -fs `pwd`/.screenrc $(HOME)/.screenrc
 	ln -fs `pwd`/.tmux.conf $(HOME)/.tmux.conf
 	ln -fs `pwd`/.vimrc $(HOME)/.vimrc
@@ -27,6 +28,7 @@ cleanup:
 	rm $(HOME)/.cshrc
 	rm -rf $(HOME)/.cshrc.d
 	rm $(HOME)/.gitconfig
+	rm $(HOME)/.gitignore
 	rm $(HOME)/.screenrc
 	rm $(HOME)/.tmux.conf
 	rm $(HOME)/.vimrc
