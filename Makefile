@@ -21,7 +21,7 @@ init:
 	ln -fs `pwd`/.zshrc $(HOME)/.zshrc
 
 update:
-	git pull
+	git pull --rebase
 
 cleanup:
 	rm $(HOME)/.cshrc
