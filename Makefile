@@ -22,7 +22,6 @@ init:
 
 update:
 	git pull
-	git push
 
 cleanup:
 	rm $(HOME)/.cshrc
