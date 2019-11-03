@@ -84,7 +84,7 @@ augroup xmlfiletype
     autocmd FileType xml set noexpandtab
 augroup END
 
-" show hidden files when using plugins
+" show hidden files when using the NerdTree plugin
 let NERDTreeShowHidden=1
 
 " let the emmet trigger key to be ctrl + z
