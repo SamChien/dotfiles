@@ -92,3 +92,5 @@ nnoremap <c-z> <nop>
 inoremap <c-z> <nop>
 vnoremap <c-z> <nop>
 let g:user_emmet_leader_key='<C-Z>'
+
+let g:ctrlp_custom_ignore = 'vendor\|node_modules'
