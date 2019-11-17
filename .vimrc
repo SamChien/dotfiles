@@ -47,9 +47,12 @@ set listchars=tab:>-,trail:~
 set nobomb
 set nobackup nowritebackup
 set viminfo="NONE"
-set visualbell
 set wildmenu
 set updatetime=300
+
+" turn off error beeping and flashing
+set visualbell
+set t_vb=
 
 " status bar settings
 set ruler
