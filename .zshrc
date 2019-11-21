@@ -92,3 +92,6 @@ if [[ $(uname) == 'Linux' ]]; then
 else
     alias ls="ls -Gal"
 fi
+
+# use 256 colors
+export TERM=xterm-256color
