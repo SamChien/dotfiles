@@ -94,3 +94,5 @@ fi
 
 # use 256 colors
 export TERM=xterm-256color
+
+alias codegrep="grep -irn --exclude-dir=vendor --exclude-dir=node_modules --exclude-dir=storage --exclude-dir=tests"
