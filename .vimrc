@@ -30,6 +30,7 @@ set viminfo="NONE"
 set wildmenu
 set updatetime=300
 set t_Co=256
+set pastetoggle=<C-a>
 
 " turn off error beeping and flashing
 set visualbell
