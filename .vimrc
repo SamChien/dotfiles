@@ -31,6 +31,7 @@ set wildmenu
 set updatetime=300
 set t_Co=256
 set pastetoggle=<C-a>
+command AbsPath echo expand('%:p')
 
 " turn off error beeping and flashing
 set visualbell
