@@ -86,6 +86,7 @@ export EDITOR=$(which vim)
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias gs="git status"
+alias gpwopp="mv .git/hooks/pre-push .git/hooks/pre-push.bak && git push && mv .git/hooks/pre-push.bak .git/hooks/pre-push"
 if [[ $(uname) == 'Linux' ]]; then
     alias ls="ls -al --color=always"
 else
