@@ -1,0 +1,5 @@
+#!/bin/sh
+
+repo_name=$(basename `git rev-parse --show-toplevel`)
+branch_name=$(git rev-parse --abbrev-ref HEAD)
+git --no-pager log master..$branch_name --no-merges --author=sam --pretty=format:"| %an | %h | https://github.com/handsupshop/$repo_name/commit/%h | %s |"
