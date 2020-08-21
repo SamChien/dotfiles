@@ -96,3 +96,26 @@ fi
 export TERM=xterm-256color
 
 alias codegrep="grep -irn --exclude-dir=vendor --exclude-dir=node_modules --exclude-dir=storage --exclude-dir=tests"
+
+# --- For HandsUP START ---
+alias hsupapi="cd ~/work/handsup-api"
+alias hsupseller="cd ~/work/handsup-seller"
+alias hsupbuyer="cd ~/work/handsup-buyer"
+alias logapi="cd ~/work/handsup-logistic-api"
+alias fbbuy="cd ~/work/fbbuy-fbbuy"
+
+alias vimhsupapi="cd ~/work/handsup-api && vim"
+alias vimhsupseller="cd ~/work/handsup-seller && vim"
+alias vimhsupbuyer="cd ~/work/handsup-buyer && vim"
+alias vimlogapi="cd ~/work/handsup-logistic-api && vim"
+alias vimfbbuy="cd ~/work/fbbuy-fbbuy && vim"
+
+alias start-hsupapihrz="cd ~/work/handsup-api && git pull --rebase && php artisan horizon"
+alias start-logapihrz="cd ~/work/handsup-logistic-api && git pull --rebase && php artisan horizon"
+alias start-hsupseller="cd ~/work/handsup-seller && git pull --rebase && yarn install && make watch"
+alias start-hsupbuyer="cd ~/work/handsup-buyer && git pull --rebase && yarn install && make watch"
+alias start-caddy="cd ~/work && caddy"
+alias taillog-hsupapi="cd ~/work/handsup-api/storage/logs && touch laravel-$(date +%Y-%m-%d).log && tail -f laravel-$(date +%Y-%m-%d).log"
+alias taillog-logapi="cd ~/work/handsup-logistic-api/storage/logs && touch laravel-$(date +%Y-%m-%d).log && tail -f laravel-$(date +%Y-%m-%d).log"
+# --- For HandsUP END ---
+
