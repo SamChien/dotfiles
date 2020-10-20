@@ -16,7 +16,7 @@ call plug#end()
 " general settings
 set number
 set relativenumber
-syntax on
+syntax enable
 set background=dark
 set cursorline
 set lazyredraw
