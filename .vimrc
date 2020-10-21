@@ -7,9 +7,10 @@ Plug 'vim-syntastic/syntastic'
 Plug 'tpope/vim-fugitive'
 Plug 'jiangmiao/auto-pairs'
 Plug 'mattn/emmet-vim'
-Plug 'kien/ctrlp.vim'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-commentary'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 
 call plug#end()
 
@@ -80,8 +81,6 @@ inoremap <c-z> <nop>
 vnoremap <c-z> <nop>
 let g:user_emmet_leader_key='<C-Z>'
 
-let g:ctrlp_custom_ignore = 'vendor\|node_modules'
-
 " Git Gutter Colors
 let g:gitgutter_override_sign_column_highlight = 0
 highlight clear SignColumn
@@ -89,3 +88,6 @@ highlight GitGutterAdd ctermfg=2
 highlight GitGutterChange ctermfg=3
 highlight GitGutterDelete ctermfg=1
 highlight GitGutterChangeDelete ctermfg=4
+
+" fzf Settings
+map <C-p> :Files<CR>
