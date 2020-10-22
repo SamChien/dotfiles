@@ -11,6 +11,7 @@ Plug 'tpope/vim-surround'
 Plug 'tpope/vim-commentary'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
+Plug 'morhetz/gruvbox'
 
 call plug#end()
 
@@ -19,6 +20,7 @@ set number
 set relativenumber
 syntax enable
 set background=dark
+colorscheme gruvbox
 set cursorline
 set lazyredraw
 set backspace=2
